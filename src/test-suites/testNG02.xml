@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite by Package" verbose="1">
+    <test name="Run by Package">
+        <packages>
+            <package name="hientester.com.TestRunXML"></package>
+        </packages>
+    </test>
+</suite>
