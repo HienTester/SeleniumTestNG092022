@@ -1,10 +1,10 @@
 package hientester.com.Bai10_AnnotationTestNG;
 
-import hientester.com.common.BaseTest;
+import hientester.com.common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.testng.annotations.*;
 
-public class LoginCMS extends BaseTest {
+public class LoginCMS extends BaseTest_OLD {
 
     @Test(priority = 1, description = "Login CMS")
     public void testLoginCMS() throws InterruptedException {
